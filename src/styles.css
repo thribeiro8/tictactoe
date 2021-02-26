@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+app-jogo-da-velha table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+app-jogo-da-velha td {
+  border: 2px solid black;
+  height: 4em;
+  width: 4em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+app-jogo-da-velha button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+app-jogo-da-velha button:hover {
+  background-color: white;
+  color: black;
+}
